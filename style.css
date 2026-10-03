@@ -1,14 +1,14 @@
-@import "./view/base";
+@import "./view/base/index.css";
 
-@import "./view/loader";
+@import "./view/loader/index.css";
 
-@import "./view/plan";
-@import "./view/plan-switcher";
-@import "./view/plan-version-toggle";
-@import "./view/plan-name-select";
+@import "./view/plan/index.css";
+@import "./view/plan-switcher/index.css";
+@import "./view/plan-version-toggle/index.css";
+@import "./view/plan-name-select/index.css";
 
-@import "./view/legend";
-@import "./view/zoom";
+@import "./view/legend/index.css";
+@import "./view/zoom/index.css";
 
-@import "./view/contact-button";
-@import "./view/about-link";
+@import "./view/contact-button/index.css";
+@import "./view/about-link/index.css";

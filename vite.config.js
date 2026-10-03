@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import UnpluginInjectPreload from "unplugin-inject-preload/vite";
 
-import plans from "./plans/plans.json";
+import plans from "./plans/plans.json" with { type: 'json' };
 
 const defaultPlanTypeName = plans[0].name;
 

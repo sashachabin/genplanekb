@@ -4,6 +4,7 @@
   "homepage": "https://genplanekb.ru/",
   "main": "index.js",
   "author": "Alexander Chabin",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "start": "vite",
@@ -11,10 +12,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "viewerjs": "^1.11.7"
+    "viewerjs": "^1.15.2"
   },
   "devDependencies": {
     "unplugin-inject-preload": "^3.0.0",
-    "vite": "^7.3.1"
+    "vite": "^8.3.2"
   }
 }
